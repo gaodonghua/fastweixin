@@ -159,7 +159,7 @@ public class TypeConvertUtil {
     /**
      * 类型转换器，将String转换成目标类型
      */
-    public static interface TypeConverter {
+    public interface TypeConverter {
         Object convert(String src);
     }
 

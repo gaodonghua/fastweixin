@@ -17,10 +17,10 @@ public class ObjectUtil {
 
     private final static Log logger = LogFactory.getLog(ObjectUtil.class);
 
-    /* 忽略的类型：不需要转换成Map的属性 */
+    /** 忽略的类型：不需要转换成Map的属性 */
     private final static Class<?>[] IGNORE_TYPES = new Class<?>[]{String.class, Date.class, Timestamp.class, BigDecimal.class};
 
-    /* 优化性能，将类的属性全部缓存起来 */
+    /** 优化性能，将类的属性全部缓存起来 */
     private static Map<Class<?>, List<Field>> fieldsMap = new HashMap<Class<?>, List<Field>>();
 
     private ObjectUtil() {
