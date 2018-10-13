@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  */
 public class DefaultApiConfig extends Observable implements ApiConfig, Serializable {
 
-	/* 默认的有效时间：7100秒 */
+	/** 默认的有效时间：7100秒 */
 	public static final long DEFAULT_EXPIRE_TIME = 7100000L;
 
 	protected static final Logger LOG = LoggerFactory.getLogger(DefaultApiConfig.class);
@@ -42,11 +42,11 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 	protected long jsTokenStartTime;
 	protected long weixinTokenStartTime;
 
-	/* access_token的有效时间 */
+	/** access_token的有效时间 */
 	protected long tokenExpireTime = DEFAULT_EXPIRE_TIME;
 	protected long jsExpireTime = DEFAULT_EXPIRE_TIME;
 
-	/* Token服务 */
+	/** Token服务 */
 	protected TokenService tokenService = this.createTokenService();
 
 	/**
@@ -111,8 +111,10 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 			 * 2.刷新标识判断，如果已经在刷新了，则也直接跳过，避免多次重复刷新，如果没有在刷新，则开始刷新
 			 */
 
-			if (null == accessToken ||
-					(time > tokenExpireTime && this.tokenRefreshing.compareAndSet(false, true))) {
+			if (null == accessToken) {
+				LOG.debug("准备刷新token.............");
+				initToken(now);
+			} else if ((time > tokenExpireTime && this.tokenRefreshing.compareAndSet(false, true))) {
 				LOG.debug("准备刷新token.............");
 				initToken(now);
 			}
@@ -130,8 +132,10 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 			long now = System.currentTimeMillis();
 			try {
 				//官方给出的超时时间是7200秒，这里用7100秒来做，防止出现已经过期的情况
-				if (null == jsApiTicket ||
-						(now - this.jsTokenStartTime > jsExpireTime && this.jsRefreshing.compareAndSet(false, true))) {
+				if (null == jsApiTicket) {
+					getAccessToken();
+					initJSToken(now);
+				} else if ((now - this.jsTokenStartTime > jsExpireTime && this.jsRefreshing.compareAndSet(false, true))) {
 					getAccessToken();
 					initJSToken(now);
 				}
@@ -192,7 +196,7 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 				LOG.debug("获取access_token:{}", response.getToken());
 				accessToken = response.getToken();
 				// 刷新token的实际有效时间
-				tokenExpireTime = Long.valueOf((response.getExpiresIn() - 100) * 1000);
+				tokenExpireTime = (response.getExpiresIn() - 100) * 1000L;
 				//设置通知点
 				setChanged();
 				notifyObservers(new ConfigChangeNotice(appid, ChangeType.ACCESS_TOKEN, accessToken));
@@ -228,7 +232,7 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 				LOG.debug("获取jsapi_ticket:{}", response.getToken());
 				jsApiTicket = response.getToken();
 				// 刷新token的实际有效时间
-				tokenExpireTime = Long.valueOf((response.getExpiresIn() - 100) * 1000);
+				tokenExpireTime = (response.getExpiresIn() - 100) * 1000L;
 				//设置通知点
 				setChanged();
 				notifyObservers(new ConfigChangeNotice(appid, ChangeType.JS_TOKEN, jsApiTicket));
