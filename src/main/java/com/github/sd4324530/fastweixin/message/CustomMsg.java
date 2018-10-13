@@ -3,6 +3,9 @@ package com.github.sd4324530.fastweixin.message;
 import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 import com.github.sd4324530.fastweixin.util.StrUtil;
 
+/**
+ * @author alan
+ */
 public class CustomMsg extends BaseMsg {
 
 	private String kfAccount;

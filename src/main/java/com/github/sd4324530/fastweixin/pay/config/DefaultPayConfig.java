@@ -5,7 +5,9 @@ import com.github.sd4324530.fastweixin.util.StreamUtil;
 import java.io.*;
 
 /***
- * Created by cl on 2018/4/26.
+ *
+ * @author cl
+ * @date 2018/4/26
  * 支付配置默认实现
  */
 public class DefaultPayConfig implements PayConfig {

@@ -17,7 +17,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Created by cl on 2018/4/25.
+ *
+ * @author Alan
+ * @date 2018/4/25
  * 支付API基础父类
  */
 public abstract class BasePayAPI {

@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.pay.entity.response;
 
 /***
- * Created by cl on 2018/4/25.
+ *
+ * @author cl
+ * @date 2018/4/25
  * 付款接口响应实体
  */
 public class TransferResponse extends BaseResponse {

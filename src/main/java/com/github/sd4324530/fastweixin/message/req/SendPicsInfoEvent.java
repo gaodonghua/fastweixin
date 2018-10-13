@@ -3,6 +3,9 @@ package com.github.sd4324530.fastweixin.message.req;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author alan
+ */
 public class SendPicsInfoEvent extends BaseEvent {
 
 	private String eventKey;

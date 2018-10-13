@@ -11,7 +11,9 @@ import java.util.Set;
 import java.util.UUID;
 
 /**
- * Created by cl on 2018/4/26.
+ *
+ * @author Alan
+ * @date 2018/4/26
  * 支付工具类
  */
 public class PayUtil {

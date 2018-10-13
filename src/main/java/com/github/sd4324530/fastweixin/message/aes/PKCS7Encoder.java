@@ -13,8 +13,9 @@ import java.util.Arrays;
 
 /**
  * 提供基于PKCS7算法的加解密接口.
+ * @author alan
  */
-class PKCS7Encoder {
+public class PKCS7Encoder {
 	static Charset CHARSET = Charset.forName("utf-8");
 	static int BLOCK_SIZE = 32;
 

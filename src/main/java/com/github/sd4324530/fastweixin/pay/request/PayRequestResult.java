@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.pay.request;
 
 /***
- * Created by cl on 2018/4/27.
+ *
+ * @author Alan
+ * @date 2018/4/27
  * 支付请求结果
  */
 public class PayRequestResult {

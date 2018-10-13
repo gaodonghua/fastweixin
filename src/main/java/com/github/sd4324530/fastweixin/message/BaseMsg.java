@@ -4,6 +4,9 @@ import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 
 import java.io.Serializable;
 
+/**
+ * @author alan
+ */
 public class BaseMsg implements Serializable {
 
 	private String toUserName;

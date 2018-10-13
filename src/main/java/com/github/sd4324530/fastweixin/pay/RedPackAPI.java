@@ -9,7 +9,9 @@ import com.github.sd4324530.fastweixin.pay.entity.response.RedPackResponse;
 import com.github.sd4324530.fastweixin.pay.request.PayRequestService;
 
 /**
- * Created by cl on 2018/4/28.
+ *
+ * @author Alan
+ * @date 2018/4/28
  * 红包API
  */
 public class RedPackAPI extends BasePayAPI {

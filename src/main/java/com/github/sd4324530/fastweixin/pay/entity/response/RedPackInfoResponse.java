@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.Map;
 
 /***
- * Created by cl on 2018/4/27.
+ *
+ * @author cl
+ * @date 2018/4/27
  * 查询红包记录接口响应实体
  */
 public class RedPackInfoResponse extends BaseResponse {

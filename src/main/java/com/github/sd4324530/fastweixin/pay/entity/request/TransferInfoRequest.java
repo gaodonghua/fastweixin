@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.pay.entity.request;
 
 /***
- * Created by cl on 2018/4/27.
+ *
+ * @author cl
+ * @date 2018/4/27
  * 查询付款接口请求实体
  */
 public class TransferInfoRequest extends BaseRequest {

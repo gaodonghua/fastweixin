@@ -3,7 +3,9 @@ package com.github.sd4324530.fastweixin.pay.request;
 import com.github.sd4324530.fastweixin.pay.config.PayConfig;
 
 /**
- * Created by cl on 2018/4/26.
+ *
+ * @author Alan
+ * @date 2018/4/26
  * 支付请求服务
  */
 public interface PayRequestService {

@@ -1,5 +1,8 @@
 package com.github.sd4324530.fastweixin.message;
 
+/**
+ * @author alan
+ */
 public class RespType {
 
 	public static final String TEXT = "text";

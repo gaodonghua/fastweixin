@@ -2,6 +2,9 @@ package com.github.sd4324530.fastweixin.message;
 
 import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 
+/**
+ * @author alan
+ */
 public final class TextMsg extends BaseMsg {
 
 	private StringBuilder contentBuilder;

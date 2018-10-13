@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.pay.entity.response;
 
 /***
- * Created by cl on 2018/4/27.
+ *
+ * @author cl
+ * @date 2018/4/27
  * 红包接口返回实体
  */
 public class RedPackResponse extends BaseResponse {

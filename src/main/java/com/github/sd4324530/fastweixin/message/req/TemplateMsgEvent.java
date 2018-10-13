@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.message.req;
 
 /**
- * Created by Ben on 2015/6/24.
+ *
+ * @author Alan
+ * @date 2015/6/24
  */
 public class TemplateMsgEvent extends BaseEvent {
 	private String msgId;

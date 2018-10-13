@@ -3,7 +3,9 @@ package com.github.sd4324530.fastweixin.pay.config;
 import java.io.InputStream;
 
 /**
- * Created by cl on 2018/4/26.
+ *
+ * @author cl
+ * @date 2018/4/26
  * 支付配置
  */
 public interface PayConfig {

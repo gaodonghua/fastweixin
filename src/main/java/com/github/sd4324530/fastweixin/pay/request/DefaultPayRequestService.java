@@ -24,7 +24,9 @@ import java.security.KeyStore;
 import java.security.SecureRandom;
 
 /***
- * Created by cl on 2018/4/27.
+ *
+ * @author Alan
+ * @date 2018/4/27
  * 默认的支付请求服务实现
  */
 public class DefaultPayRequestService implements PayRequestService {

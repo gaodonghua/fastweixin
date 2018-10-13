@@ -1,5 +1,8 @@
 package com.github.sd4324530.fastweixin.message.aes;
 
+/**
+ * @author alan
+ */
 @SuppressWarnings("serial")
 public class AesException extends Exception {
 

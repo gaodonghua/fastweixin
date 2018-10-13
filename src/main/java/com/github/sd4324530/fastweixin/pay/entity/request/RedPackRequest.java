@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.pay.entity.request;
 
 /***
- * Created by cl on 2018/4/27.
+ *
+ * @author cl
+ * @date 2018/4/27
  * 普通红包接口请求实体
  */
 public class RedPackRequest extends BaseRedPackRequest {

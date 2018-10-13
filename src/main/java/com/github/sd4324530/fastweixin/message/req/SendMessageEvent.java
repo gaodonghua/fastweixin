@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.message.req;
 
 /**
- * Created by jileilei on 15/8/10.
+ *
+ * @author Alan
+ * @date 15/8/10
  */
 public class SendMessageEvent extends BaseEvent {
 	private String msgId;//群发的消息ID

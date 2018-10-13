@@ -1,5 +1,8 @@
 package com.github.sd4324530.fastweixin.message.req;
 
+/**
+ * @author alan
+ */
 public final class TextReqMsg extends BaseReqMsg {
 
 	private String content;

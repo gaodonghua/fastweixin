@@ -2,7 +2,10 @@ package com.github.sd4324530.fastweixin.message.aes;
 
 import java.util.ArrayList;
 
-class ByteGroup {
+/**
+ * @author alan
+ */
+public class ByteGroup {
 	ArrayList<Byte> byteContainer = new ArrayList<Byte>();
 
 	public byte[] toBytes() {

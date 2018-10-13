@@ -4,7 +4,9 @@ package com.github.sd4324530.fastweixin.pay.entity.request;
 import java.io.Serializable;
 
 /***
- * Created by cl on 2018/4/25.
+ *
+ * @author cl
+ * @date 2018/4/25
  */
 public abstract class BaseRequest implements Serializable {
 
