@@ -7,13 +7,8 @@ import com.github.sd4324530.fastweixin.company.api.entity.QYAgent;
 import java.util.Map;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class GetQYAgentInfoResponse extends BaseResponse {
 

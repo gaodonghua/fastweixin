@@ -3,13 +3,8 @@ package com.github.sd4324530.fastweixin.api.response;
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class GetMaterialTotalCountResponse extends BaseResponse {
 

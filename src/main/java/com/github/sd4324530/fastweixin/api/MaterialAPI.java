@@ -32,12 +32,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
- *
- *
- *
  * @author Alan
- *
  */
 public class MaterialAPI extends BaseAPI {
 

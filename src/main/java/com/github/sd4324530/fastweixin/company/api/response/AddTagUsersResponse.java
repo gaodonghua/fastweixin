@@ -7,13 +7,9 @@ import java.util.List;
 /**
  * Response -- 增加标签成员
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class AddTagUsersResponse extends BaseResponse {
 

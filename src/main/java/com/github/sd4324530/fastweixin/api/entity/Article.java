@@ -19,6 +19,7 @@ public class Article extends BaseModel {
 	private String digest;
 	@JSONField(name = "show_cover_pic")
 	private Integer showConverPic = ShowConverPic.YES;
+
 	public Article() {
 
 	}

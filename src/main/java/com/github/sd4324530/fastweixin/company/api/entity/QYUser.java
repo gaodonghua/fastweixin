@@ -6,13 +6,8 @@ import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 import java.util.Map;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class QYUser extends BaseModel {
 
@@ -30,6 +25,7 @@ public class QYUser extends BaseModel {
 	private String avatar;//更新用户时，用户头像链接地址
 	private Integer status;// 关注状态: 1=已关注，2=已冻结，4=未关注
 	private Map<String, Object> extattr;
+
 	public QYUser() {
 	}
 

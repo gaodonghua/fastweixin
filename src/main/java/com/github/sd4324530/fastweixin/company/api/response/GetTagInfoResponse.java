@@ -9,13 +9,9 @@ import java.util.Map;
 /**
  * Response -- 标签信息
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class GetTagInfoResponse extends BaseResponse {
 

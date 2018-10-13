@@ -12,14 +12,13 @@ import java.net.URLEncoder;
 
 /**
  * 企业号身份授权
- *
- *
+ * <p>
+ * <p>
  * -------------------------------------------------------------------
  *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class QYOauthAPI extends QYBaseAPI {
 

@@ -3,13 +3,9 @@ package com.github.sd4324530.fastweixin.company.message.req;
 /**
  * 微信企业号异步任务类型
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public final class QYBatchJobType {
 

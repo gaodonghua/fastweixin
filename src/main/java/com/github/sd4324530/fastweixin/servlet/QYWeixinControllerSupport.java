@@ -16,12 +16,8 @@ import java.io.IOException;
 /**
  * 微信企业平台交互操作基类
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 @Controller
 public abstract class QYWeixinControllerSupport extends QYWeixinSupport {

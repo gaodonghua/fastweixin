@@ -19,13 +19,9 @@ import java.util.Map;
 /**
  * 标签管理
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class QYTagAPI extends QYBaseAPI {
 

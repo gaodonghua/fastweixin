@@ -6,13 +6,8 @@ import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 import java.util.Map;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class QYAgent extends BaseModel {
 

@@ -18,7 +18,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
  */
 public class DefaultApiConfig extends Observable implements ApiConfig, Serializable {
 
-	/** 默认的有效时间：7100秒 */
+	/**
+	 * 默认的有效时间：7100秒
+	 */
 	public static final long DEFAULT_EXPIRE_TIME = 7100000L;
 
 	protected static final Logger LOG = LoggerFactory.getLogger(DefaultApiConfig.class);
@@ -42,11 +44,15 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 	protected long jsTokenStartTime;
 	protected long weixinTokenStartTime;
 
-	/** access_token的有效时间 */
+	/**
+	 * access_token的有效时间
+	 */
 	protected long tokenExpireTime = DEFAULT_EXPIRE_TIME;
 	protected long jsExpireTime = DEFAULT_EXPIRE_TIME;
 
-	/** Token服务 */
+	/**
+	 * Token服务
+	 */
 	protected TokenService tokenService = this.createTokenService();
 
 	/**

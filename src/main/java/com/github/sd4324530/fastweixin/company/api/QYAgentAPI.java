@@ -15,13 +15,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class QYAgentAPI extends QYBaseAPI {
 

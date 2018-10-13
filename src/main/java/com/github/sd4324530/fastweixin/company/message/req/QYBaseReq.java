@@ -3,13 +3,9 @@ package com.github.sd4324530.fastweixin.company.message.req;
 /**
  * 企业号基础消息模型
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class QYBaseReq {
 

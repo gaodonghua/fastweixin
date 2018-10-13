@@ -6,9 +6,6 @@ import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 /**
  * 微信企业号被动响应图片消息
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since

@@ -4,13 +4,8 @@ import com.alibaba.fastjson.annotation.JSONField;
 import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class QYDepartment extends BaseModel {
 

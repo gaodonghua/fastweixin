@@ -6,13 +6,9 @@ import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 /**
  * 微信企业号被动响应事件视频消息
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class QYVideoRespMsg extends QYBaseRespMsg {
 	private String mediaId;

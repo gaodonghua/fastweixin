@@ -9,13 +9,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
- *
- *
- *
  * @author wwj
  * @version 1.0.beta
- *
  */
 public class QYMpNewsMsg extends QYBaseMsg {
 

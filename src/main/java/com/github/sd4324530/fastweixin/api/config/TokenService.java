@@ -1,7 +1,6 @@
 package com.github.sd4324530.fastweixin.api.config;
 
 /**
- *
  * @author Alan
  * @date 2018/4/24
  * 微信Token服务，用于获取access_token和js-sdk token

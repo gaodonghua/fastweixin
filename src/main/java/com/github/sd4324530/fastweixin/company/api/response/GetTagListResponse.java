@@ -9,13 +9,9 @@ import java.util.List;
 /**
  * Response -- 获取标签列表
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class GetTagListResponse extends BaseResponse {
 

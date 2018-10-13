@@ -10,13 +10,8 @@ import com.github.sd4324530.fastweixin.util.BeanUtil;
 import com.github.sd4324530.fastweixin.util.JSONUtil;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class QYDepartmentAPI extends QYBaseAPI {
 

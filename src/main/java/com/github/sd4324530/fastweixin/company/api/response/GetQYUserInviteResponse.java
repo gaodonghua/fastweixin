@@ -5,13 +5,8 @@ package com.github.sd4324530.fastweixin.company.api.response;/**
 import com.github.sd4324530.fastweixin.api.response.BaseResponse;
 
 /**
- *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
- *
  */
 public class GetQYUserInviteResponse extends BaseResponse {
 	private Integer type;

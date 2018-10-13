@@ -18,13 +18,9 @@ import java.util.List;
 /**
  * 自定义菜单管理
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class QYMenuAPI extends QYBaseAPI {
 

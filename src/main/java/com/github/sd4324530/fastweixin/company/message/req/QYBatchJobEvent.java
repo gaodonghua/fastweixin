@@ -3,13 +3,9 @@ package com.github.sd4324530.fastweixin.company.message.req;
 /**
  * 微信公众号异步任务完成事件
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class QYBatchJobEvent extends QYBaseEvent {
 

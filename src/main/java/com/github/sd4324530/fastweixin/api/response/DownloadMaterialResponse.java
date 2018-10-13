@@ -13,12 +13,7 @@ import java.io.OutputStream;
 import java.util.List;
 
 /**
- *
- *
- *
- *
  * @author Alan
- *
  */
 public class DownloadMaterialResponse extends BaseResponse {
 

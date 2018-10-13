@@ -10,13 +10,9 @@ import java.util.List;
 /**
  * 菜单按钮对象
  *
- *
- *
- *
  * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- *
  */
 public class QYMenuButton extends BaseModel {
 
