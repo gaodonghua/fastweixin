@@ -3,13 +3,13 @@ package com.github.sd4324530.fastweixin.company.api.enums;
 import com.github.sd4324530.fastweixin.util.BeanUtil;
 
 /**
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * ====================================================================
+ *
  */
 public enum QYResultType {
 	/**

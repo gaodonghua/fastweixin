@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.response;
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class GetUserInfoResponse extends BaseResponse {
 

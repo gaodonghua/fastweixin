@@ -7,7 +7,7 @@ import java.util.Collections;
 /**
  * 集合常用方法工具类
  *
- * @author peiyu
+ * @author Alan
  */
 public final class CollectionUtil {
 

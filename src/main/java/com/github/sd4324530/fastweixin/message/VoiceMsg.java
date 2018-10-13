@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.message;
 import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class VoiceMsg extends BaseMsg {
 

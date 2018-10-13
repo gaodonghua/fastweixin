@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.entity;
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- * @author peiyu
+ * @author Alan
  * @since 1.3.7
  */
 public class Matchrule extends BaseModel {

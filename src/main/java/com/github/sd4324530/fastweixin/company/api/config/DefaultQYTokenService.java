@@ -13,7 +13,7 @@ public class DefaultQYTokenService extends DefaultTokenService implements TokenS
 
 	@Override
 	protected String generateAccessTokenUrl(ApiConfig apiConfig) {
-		return "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" + apiConfig.getAppid() + "&corpsecret=" + apiConfig.getSecret();
+		return "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" + apiConfig.getAppId() + "&corpsecret=" + apiConfig.getSecret();
 	}
 
 	@Override

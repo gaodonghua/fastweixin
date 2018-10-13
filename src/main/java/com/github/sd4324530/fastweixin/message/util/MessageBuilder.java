@@ -1,7 +1,7 @@
 package com.github.sd4324530.fastweixin.message.util;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class MessageBuilder {
 

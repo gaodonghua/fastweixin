@@ -8,13 +8,13 @@ import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 import java.io.Serializable;
 
 /**
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * ====================================================================
+ *
  */
 public class QYBaseMsg extends BaseModel implements Serializable {
 

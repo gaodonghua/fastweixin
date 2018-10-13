@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.response;
 import com.github.sd4324530.fastweixin.api.entity.Group;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class CreateGroupResponse extends BaseResponse {
 

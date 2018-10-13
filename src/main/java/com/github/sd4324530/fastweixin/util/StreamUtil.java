@@ -11,7 +11,7 @@ import java.io.OutputStream;
 /**
  * 套接字工具类
  *
- * @author peiyu
+ * @author Alan
  */
 public final class StreamUtil {
 

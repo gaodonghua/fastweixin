@@ -5,13 +5,13 @@ package com.github.sd4324530.fastweixin.company.message;/**
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * ====================================================================
+ *
  */
 public class QYVoiceMsg extends QYBaseMsg {
 

@@ -17,7 +17,7 @@ import java.net.URLEncoder;
 /**
  * 网页授权API
  *
- * @author peiyu
+ * @author Alan
  */
 public class OauthAPI extends BaseAPI {
 
@@ -46,7 +46,7 @@ public class OauthAPI extends BaseAPI {
 			LOG.error("异常", e);
 		}
 		StringBuilder stringBuilder = new StringBuilder("https://open.weixin.qq.com/connect/oauth2/authorize?");
-		stringBuilder.append("appid=").append(this.config.getAppid())
+		stringBuilder.append("appid=").append(this.config.getAppId())
 				.append("&redirect_uri=").append(url)
 				.append("&response_type=code&scope=").append(scope.toString())
 				.append("&state=")
@@ -64,7 +64,7 @@ public class OauthAPI extends BaseAPI {
 	public OauthGetTokenResponse getToken(String code) {
 		BeanUtil.requireNonNull(code, "code is null");
 		OauthGetTokenResponse response = null;
-		String url = BASE_API_URL + "sns/oauth2/access_token?appid=" + this.config.getAppid() + "&secret=" + this.config.getSecret() + "&code=" + code + "&grant_type=authorization_code";
+		String url = BASE_API_URL + "sns/oauth2/access_token?appid=" + this.config.getAppId() + "&secret=" + this.config.getSecret() + "&code=" + code + "&grant_type=authorization_code";
 		BaseResponse r = executeGet(url);
 		String resultJson = isSuccess(r.getErrcode()) ? r.getErrmsg() : r.toJsonString();
 		response = JSONUtil.toBean(resultJson, OauthGetTokenResponse.class);
@@ -80,7 +80,7 @@ public class OauthAPI extends BaseAPI {
 	public OauthGetTokenResponse refreshToken(String refreshToken) {
 		BeanUtil.requireNonNull(refreshToken, "refreshToken is null");
 		OauthGetTokenResponse response = null;
-		String url = BASE_API_URL + "sns/oauth2/refresh_token?appid=" + this.config.getAppid() + "&grant_type=refresh_token&refresh_token=" + refreshToken;
+		String url = BASE_API_URL + "sns/oauth2/refresh_token?appid=" + this.config.getAppId() + "&grant_type=refresh_token&refresh_token=" + refreshToken;
 		BaseResponse r = executeGet(url);
 		String resultJson = isSuccess(r.getErrcode()) ? r.getErrmsg() : r.toJsonString();
 		response = JSONUtil.toBean(resultJson, OauthGetTokenResponse.class);

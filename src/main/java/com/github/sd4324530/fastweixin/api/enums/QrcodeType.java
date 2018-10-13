@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.enums;
 /**
  * 二维码接口状态枚举
  *
- * @author peiyu
+ * @author Alan
  * @since 1.2
  */
 public enum QrcodeType {

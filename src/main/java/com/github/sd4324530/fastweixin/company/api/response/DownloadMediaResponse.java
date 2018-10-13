@@ -11,13 +11,13 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * ====================================================================
+ *
  */
 public class DownloadMediaResponse extends BaseResponse {
 	private static final Logger LOG = LoggerFactory.getLogger(DownloadMediaResponse.class);

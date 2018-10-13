@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 /**
  * 消息分送分时数据
  *
- * @author peiyu
+ * @author Alan
  */
 public class UpstreamMsgHour extends BaseDataCube {
 

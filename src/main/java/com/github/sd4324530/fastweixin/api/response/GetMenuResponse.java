@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.response;
 import com.github.sd4324530.fastweixin.api.entity.Menu;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class GetMenuResponse extends BaseResponse {
 

@@ -13,7 +13,7 @@ import java.util.UUID;
 /**
  * 微信js-sdk相关API
  *
- * @author peiyu
+ * @author Alan
  */
 public class JsAPI extends BaseAPI {
 

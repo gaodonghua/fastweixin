@@ -1,7 +1,7 @@
 package com.github.sd4324530.fastweixin.api.response;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class GetSignatureResponse extends BaseResponse {
 

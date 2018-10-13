@@ -12,14 +12,14 @@ import java.net.URLEncoder;
 
 /**
  * 企业号身份授权
- * ====================================================================
- * 上海聚攒软件开发有限公司
+ *
+ *
  * -------------------------------------------------------------------
  *
- * @author Nottyjay
+ * @author Alan
  * @version 1.0.beta
  * @since 1.3.6
- * ====================================================================
+ *
  */
 public class QYOauthAPI extends QYBaseAPI {
 
@@ -55,7 +55,7 @@ public class QYOauthAPI extends QYBaseAPI {
 			LOG.error("异常", e);
 		}
 		StringBuffer stringBuffer = new StringBuffer("https://open.weixin.qq.com/connect/oauth2/authorize?");
-		stringBuffer.append("appid=").append(this.config.getCorpid())
+		stringBuffer.append("appid=").append(this.config.getCorpId())
 				.append("&redirect_uri=").append(url)
 				.append("&response_type=code&scope=").append(scope.toString())
 				.append("&state=").append(userstate)

@@ -1,7 +1,7 @@
 package com.github.sd4324530.fastweixin.message.req;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public final class VoiceReqMsg extends BaseReqMsg {
 

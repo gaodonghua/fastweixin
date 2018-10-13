@@ -5,7 +5,7 @@ import com.github.sd4324530.fastweixin.api.entity.UserShareHour;
 import java.util.List;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class GetUserShareHourResponse extends BaseResponse {
 

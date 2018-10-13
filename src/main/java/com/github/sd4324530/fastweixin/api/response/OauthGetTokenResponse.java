@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 /**
  * Oauth授权获取token接口响应对象
  *
- * @author peiyu
+ * @author Alan
  */
 public class OauthGetTokenResponse extends GetTokenResponse {
 

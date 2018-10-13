@@ -8,7 +8,7 @@
  * 官方下载地址：http://commons.apache.org/proper/commons-codec/download_codec.cgi
  */
 
-// ------------------------------------------------------------------------
+//----
 
 /**
  * 针对org.apache.commons.codec.binary.Base64，

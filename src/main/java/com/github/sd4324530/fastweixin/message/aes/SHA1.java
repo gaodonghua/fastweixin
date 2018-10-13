@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 1998-2014 Tencent Inc.
  */
 
-// ------------------------------------------------------------------------
+//----
 
 package com.github.sd4324530.fastweixin.message.aes;
 

@@ -9,13 +9,13 @@ import com.github.sd4324530.fastweixin.company.api.entity.QYUser;
 import java.util.List;
 
 /**
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * ====================================================================
+ *
  */
 public class GetQYUserInfo4DepartmentResponse extends BaseResponse {
 

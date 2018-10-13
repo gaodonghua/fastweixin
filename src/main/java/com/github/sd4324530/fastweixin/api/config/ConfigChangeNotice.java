@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * 配置变化通知
  *
- * @author peiyu
+ * @author Alan
  */
 public final class ConfigChangeNotice extends BaseModel {
 

@@ -61,7 +61,7 @@ public class DefaultTokenService implements TokenService {
 	 */
 	protected String generateAccessTokenUrl(ApiConfig apiConfig) {
 		return "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" +
-				apiConfig.getAppid() + "&secret=" + apiConfig.getSecret();
+				apiConfig.getAppId() + "&secret=" + apiConfig.getSecret();
 	}
 
 	/**

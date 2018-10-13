@@ -8,8 +8,18 @@ import com.github.sd4324530.fastweixin.api.config.ApiConfig;
  */
 public interface QYAPIConfig extends ApiConfig {
 
-	String getCorpid();
+	/**
+	 * 获取企业ID(corpId)
+	 *
+	 * @return 企业ID
+	 */
+	String getCorpId();
 
-	String getCorpsecret();
+	/**
+	 * 获取企业秘钥(corp secret)
+	 *
+	 * @return 企业秘钥
+	 */
+	String getCorpSecret();
 
 }

@@ -17,7 +17,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class FastweixinTest {
 

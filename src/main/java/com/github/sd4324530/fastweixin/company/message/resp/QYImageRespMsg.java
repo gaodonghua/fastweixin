@@ -5,13 +5,13 @@ import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 
 /**
  * 微信企业号被动响应图片消息
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * @since ====================================================================
+ * @since
  */
 public class QYImageRespMsg extends QYBaseRespMsg {
 

@@ -1,7 +1,9 @@
 package com.github.sd4324530.fastweixin.api.config;
 
 /**
- * Created by cl on 2018/4/24.
+ *
+ * @author Alan
+ * @date 2018/4/24
  * Token响应结果回调
  */
 public interface TokenResponseCallback {

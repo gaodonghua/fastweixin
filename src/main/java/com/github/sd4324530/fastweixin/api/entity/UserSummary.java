@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 /**
  * 用户增减数据
  *
- * @author peiyu
+ * @author Alan
  */
 public class UserSummary extends BaseDataCube {
 

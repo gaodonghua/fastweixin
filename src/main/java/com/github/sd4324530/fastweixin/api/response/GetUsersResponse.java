@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 import java.io.Serializable;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class GetUsersResponse extends BaseResponse {
 

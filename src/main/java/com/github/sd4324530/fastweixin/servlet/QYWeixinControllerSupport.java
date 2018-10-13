@@ -15,13 +15,13 @@ import java.io.IOException;
 
 /**
  * 微信企业平台交互操作基类
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * ====================================================================
+ *
  */
 @Controller
 public abstract class QYWeixinControllerSupport extends QYWeixinSupport {

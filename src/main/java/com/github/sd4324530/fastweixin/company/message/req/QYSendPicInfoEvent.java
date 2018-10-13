@@ -4,13 +4,13 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
+ *
+ *
+ *
+ * @author Alan
  * @version 1.0.beta
- * @since ====================================================================
+ * @since
  */
 public class QYSendPicInfoEvent extends QYMenuEvent {
 

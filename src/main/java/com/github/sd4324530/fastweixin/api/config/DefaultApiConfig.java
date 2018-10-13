@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * API配置默认实现
  * 实现观察者模式，用于监控token变化
  *
- * @author peiyu
+ * @author Alan
  * @since 1.2
  */
 public class DefaultApiConfig extends Observable implements ApiConfig, Serializable {
@@ -91,7 +91,7 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 	}
 
 	@Override
-	public String getAppid() {
+	public String getAppId() {
 		return appid;
 	}
 

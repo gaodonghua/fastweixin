@@ -5,7 +5,7 @@ import com.github.sd4324530.fastweixin.api.entity.ArticleSummary;
 import java.util.List;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class GetArticleSummaryResponse extends BaseResponse {
 

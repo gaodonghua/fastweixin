@@ -5,7 +5,7 @@ import com.github.sd4324530.fastweixin.api.entity.UserShare;
 import java.util.List;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class GetUserShareResponse extends BaseResponse {
 

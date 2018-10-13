@@ -13,12 +13,12 @@ import java.io.OutputStream;
 import java.util.List;
 
 /**
- * ====================================================================
- * 上海聚攒软件开发有限公司
- * --------------------------------------------------------------------
  *
- * @author Nottyjay
- * ====================================================================
+ *
+ *
+ *
+ * @author Alan
+ *
  */
 public class DownloadMaterialResponse extends BaseResponse {
 

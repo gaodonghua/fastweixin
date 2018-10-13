@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 import java.util.Date;
 
 /**
- * @author peiyu
+ * @author Alan
  */
 public class BaseDataCube extends BaseModel {
 

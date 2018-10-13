@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author cl
+ * @author Alan
  * @date 2018/4/27
  * 类型转换工具类，支持将字符串转换为指定类型
  */

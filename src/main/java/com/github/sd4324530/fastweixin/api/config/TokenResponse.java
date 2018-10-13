@@ -3,7 +3,9 @@ package com.github.sd4324530.fastweixin.api.config;
 import java.io.Serializable;
 
 /**
- * Created by cl on 2018/4/24.
+ *
+ * @author Alan
+ * @date 2018/4/24
  * Token响应结果
  */
 public class TokenResponse implements Serializable {

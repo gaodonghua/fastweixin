@@ -12,7 +12,7 @@ import static com.github.sd4324530.fastweixin.util.StrUtil.isBlank;
 /**
  * json操作工具类，基于fastjson封装
  *
- * @author peiyu
+ * @author Alan
  */
 public final class JSONUtil {
 

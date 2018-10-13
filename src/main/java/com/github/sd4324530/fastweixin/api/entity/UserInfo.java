@@ -1,7 +1,7 @@
 package com.github.sd4324530.fastweixin.api.entity;
 
 /**
- * @author Nottyjay
+ * @author Alan
  */
 public class UserInfo extends BaseModel {
 	private String openid;

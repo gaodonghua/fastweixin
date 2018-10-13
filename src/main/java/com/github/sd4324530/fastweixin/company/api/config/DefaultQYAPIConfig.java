@@ -34,12 +34,12 @@ public class DefaultQYAPIConfig extends DefaultApiConfig implements QYAPIConfig 
 	}
 
 	@Override
-	public String getCorpid() {
+	public String getCorpId() {
 		return corpid;
 	}
 
 	@Override
-	public String getCorpsecret() {
+	public String getCorpSecret() {
 		return corpsecret;
 	}
 

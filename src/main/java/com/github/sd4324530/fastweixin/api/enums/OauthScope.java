@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.enums;
 /**
  * Oauth授权作用域枚举
  *
- * @author peiyu
+ * @author Alan
  */
 public enum OauthScope {
 
