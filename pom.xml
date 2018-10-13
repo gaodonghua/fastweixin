@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.sd4324530</groupId>
     <artifactId>fastweixin</artifactId>
-    <url>https://github.com/sd4324530/fastweixin.git</url>
-    <version>1.3.16-SNAPSHOT</version>
+    <url>https://github.com/gaodonghua/fastweixin.git</url>
+    <version>1.3.18-SNAPSHOTS</version>
     <packaging>jar</packaging>
     <name>fastweixin</name>
     <description>quickly department weixin server</description>
@@ -23,23 +23,23 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git://github.com/sd4324530/fastweixin.git</connection>
-        <developerConnection>scm:git:git@github.com:sd4324530/fastweixin.git</developerConnection>
-        <url>https://github.com/sd4324530/fastweixin.git</url>
+        <connection>scm:git:git://github.com/gaodonghua/fastweixin.git</connection>
+        <developerConnection>scm:git:git@github.com:gaodonghua/fastweixin.git</developerConnection>
+        <url>https://github.com/gaodonghua/fastweixin.git</url>
         <tag>HEAD</tag>
     </scm>
 
     <developers>
         <developer>
-            <id>peiyu</id>
-            <name>peiyu</name>
-            <email>125331682@qq.com</email>
+            <id>Alan</id>
+            <name>Alan</name>
+            <email>fengyedidi@163.com</email>
         </developer>
     </developers>
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/sd4324530/fastweixin/issues</url>
+        <url>https://github.com/gaodonghua/fastweixin/issues</url>
     </issueManagement>
 
 
@@ -119,6 +119,20 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
+    <distributionManagement>
+        <repository>
+            <id>kuangji-releases</id>
+            <name>kuangji Release Repository</name>
+            <url>http://47.94.247.189:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>kuangji-snapshots</id>
+            <name>kuangji Snapshot Repository</name>
+            <url>http://47.94.247.189:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <finalName>fastweixin</finalName>
