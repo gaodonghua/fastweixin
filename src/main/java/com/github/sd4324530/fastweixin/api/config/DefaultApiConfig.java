@@ -93,7 +93,9 @@ public class DefaultApiConfig extends Observable implements ApiConfig, Serializa
 		this.enableJsApi = enableJsApi;
 		long now = System.currentTimeMillis();
 		initToken(now);
-		if (enableJsApi) initJSToken(now);
+		if (enableJsApi) {
+			initJSToken(now);
+		}
 	}
 
 	@Override
