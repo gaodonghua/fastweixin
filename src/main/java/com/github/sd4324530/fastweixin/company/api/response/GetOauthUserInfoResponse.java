@@ -6,7 +6,7 @@ import com.github.sd4324530.fastweixin.api.response.BaseResponse;
 /**
  * Response -- 从Oauth中获取的用户信息
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

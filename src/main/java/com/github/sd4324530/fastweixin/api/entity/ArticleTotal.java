@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 图文群发总数据
  *
- * @author Alan
+ * @author alan
  */
 public class ArticleTotal extends BaseDataCube {
 

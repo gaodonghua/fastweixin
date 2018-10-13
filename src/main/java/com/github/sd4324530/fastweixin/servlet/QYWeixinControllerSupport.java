@@ -16,7 +16,7 @@ import java.io.IOException;
 /**
  * 微信企业平台交互操作基类
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 @Controller

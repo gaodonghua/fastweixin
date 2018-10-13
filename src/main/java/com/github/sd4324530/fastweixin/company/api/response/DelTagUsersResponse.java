@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Response -- 删除标签内成员
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

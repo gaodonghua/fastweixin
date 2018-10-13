@@ -9,7 +9,7 @@ import java.util.Map;
 
 /***
  *
- * @author cl
+ * @author alan
  * @date 2018/4/27
  * 查询红包记录接口响应实体
  */

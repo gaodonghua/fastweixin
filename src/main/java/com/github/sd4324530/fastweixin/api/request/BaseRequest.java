@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.request;
 import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class BaseRequest extends BaseModel {
 }

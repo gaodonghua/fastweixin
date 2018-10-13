@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.company.api.enums;
 import com.github.sd4324530.fastweixin.util.BeanUtil;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public enum QYResultType {

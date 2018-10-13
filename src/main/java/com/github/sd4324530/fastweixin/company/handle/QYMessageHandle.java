@@ -6,7 +6,7 @@ import com.github.sd4324530.fastweixin.company.message.resp.QYBaseRespMsg;
 /**
  * 微信企业号消息处理器接口
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

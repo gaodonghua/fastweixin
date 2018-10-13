@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 微信企业号被动响应事件新闻消息
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

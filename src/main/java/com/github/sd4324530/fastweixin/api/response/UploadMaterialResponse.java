@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.response;
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class UploadMaterialResponse extends BaseResponse {

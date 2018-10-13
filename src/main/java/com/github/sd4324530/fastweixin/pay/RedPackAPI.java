@@ -10,7 +10,7 @@ import com.github.sd4324530.fastweixin.pay.request.PayRequestService;
 
 /**
  *
- * @author Alan
+ * @author alan
  * @date 2018/4/28
  * 红包API
  */

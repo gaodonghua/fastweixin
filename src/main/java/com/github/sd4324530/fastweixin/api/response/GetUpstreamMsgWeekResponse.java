@@ -5,7 +5,7 @@ import com.github.sd4324530.fastweixin.api.entity.UpstreamMsgWeek;
 import java.util.List;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class GetUpstreamMsgWeekResponse extends BaseResponse {
 

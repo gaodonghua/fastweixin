@@ -28,7 +28,7 @@ import static com.github.sd4324530.fastweixin.util.StrUtil.isNotBlank;
 /**
  * 将微信处理通用部分再抽象一层，使用其他框架框架的同学可以自行继承此类集成微信
  *
- * @author Alan
+ * @author alan
  * @since 1.1
  */
 public abstract class WeixinSupport {

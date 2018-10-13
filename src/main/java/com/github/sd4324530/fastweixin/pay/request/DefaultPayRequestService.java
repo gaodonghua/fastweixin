@@ -25,7 +25,7 @@ import java.security.SecureRandom;
 
 /***
  *
- * @author Alan
+ * @author alan
  * @date 2018/4/27
  * 默认的支付请求服务实现
  */

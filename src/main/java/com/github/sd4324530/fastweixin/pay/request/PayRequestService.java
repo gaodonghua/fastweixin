@@ -4,7 +4,7 @@ import com.github.sd4324530.fastweixin.pay.config.PayConfig;
 
 /**
  *
- * @author Alan
+ * @author alan
  * @date 2018/4/26
  * 支付请求服务
  */

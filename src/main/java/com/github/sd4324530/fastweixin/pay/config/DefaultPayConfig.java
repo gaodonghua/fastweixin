@@ -6,7 +6,7 @@ import java.io.*;
 
 /***
  *
- * @author cl
+ * @author alan
  * @date 2018/4/26
  * 支付配置默认实现
  */

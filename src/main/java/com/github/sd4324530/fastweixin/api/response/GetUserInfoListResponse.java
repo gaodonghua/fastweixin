@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.response;
 import java.util.List;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class GetUserInfoListResponse extends BaseResponse {
 	private List<GetUserInfoResponse> user_info_list;

@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.company.message;
 import com.github.sd4324530.fastweixin.api.entity.Article;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class QYMpArticle extends Article {

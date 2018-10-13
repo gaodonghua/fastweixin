@@ -6,7 +6,7 @@ import com.github.sd4324530.fastweixin.api.entity.CustomAccount;
 import java.util.List;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class GetCustomAccountsResponse extends BaseResponse {
 

@@ -5,7 +5,7 @@ import com.github.sd4324530.fastweixin.util.BeanUtil;
 /**
  * 微信接口全局返回码枚举
  *
- * @author Alan
+ * @author alan
  * @since 1.2
  */
 public enum ResultType {

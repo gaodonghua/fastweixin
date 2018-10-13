@@ -6,7 +6,7 @@ import com.github.sd4324530.fastweixin.message.req.BaseReqMsg;
 /**
  * 微信消息处理器接口
  *
- * @author Alan
+ * @author alan
  * @since 1.1
  */
 public interface MessageHandle<M extends BaseReqMsg> {

@@ -12,7 +12,7 @@ import java.util.UUID;
 
 /**
  *
- * @author Alan
+ * @author alan
  * @date 2018/4/26
  * 支付工具类
  */

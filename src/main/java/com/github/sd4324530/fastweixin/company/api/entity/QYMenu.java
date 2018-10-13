@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 微信完整菜单
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

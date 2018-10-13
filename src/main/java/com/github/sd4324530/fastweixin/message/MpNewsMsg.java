@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.message;
 /**
  * 提交至微信的图文消息素材
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class MpNewsMsg extends BaseMsg {

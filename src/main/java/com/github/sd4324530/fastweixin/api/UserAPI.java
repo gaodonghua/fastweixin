@@ -19,7 +19,7 @@ import java.util.Map;
 /**
  * 用户管理相关API
  *
- * @author Alan
+ * @author alan
  * @since 1.2
  */
 public class UserAPI extends BaseAPI {

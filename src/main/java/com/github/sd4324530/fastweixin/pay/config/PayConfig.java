@@ -4,7 +4,7 @@ import java.io.InputStream;
 
 /**
  *
- * @author cl
+ * @author alan
  * @date 2018/4/26
  * 支付配置
  */

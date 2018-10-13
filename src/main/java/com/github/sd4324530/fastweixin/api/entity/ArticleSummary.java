@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 /**
  * 图文群发每日数据
  *
- * @author Alan
+ * @author alan
  */
 public class ArticleSummary extends BaseDataCube {
 

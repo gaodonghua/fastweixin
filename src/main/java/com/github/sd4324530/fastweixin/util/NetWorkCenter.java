@@ -327,7 +327,7 @@ public final class NetWorkCenter {
 	/**
 	 * 标识HTTP请求类型枚举
 	 *
-	 * @author Alan
+	 * @author alan
 	 * @since 1.0
 	 */
 	enum RequestMethod {
@@ -357,7 +357,7 @@ public final class NetWorkCenter {
 	/**
 	 * 自定义HTTP响应回调接口,用于兼容jdk6
 	 *
-	 * @author Alan
+	 * @author alan
 	 * @since 1.1
 	 */
 //	@FunctionalInterface

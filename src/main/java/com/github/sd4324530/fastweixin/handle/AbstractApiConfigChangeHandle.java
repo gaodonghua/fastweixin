@@ -8,7 +8,7 @@ import java.util.Observable;
 /**
  * 配置变化监听器抽象类
  *
- * @author Alan
+ * @author alan
  */
 public abstract class AbstractApiConfigChangeHandle implements ApiConfigChangeHandle {
 

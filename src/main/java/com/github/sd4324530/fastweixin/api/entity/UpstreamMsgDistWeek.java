@@ -1,7 +1,7 @@
 package com.github.sd4324530.fastweixin.api.entity;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class UpstreamMsgDistWeek extends UpstreamMsgDist {
 }

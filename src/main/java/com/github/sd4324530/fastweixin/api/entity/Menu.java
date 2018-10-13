@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 菜单对象，包含所有菜单按钮
  *
- * @author Alan
+ * @author alan
  */
 public class Menu extends BaseModel {
 

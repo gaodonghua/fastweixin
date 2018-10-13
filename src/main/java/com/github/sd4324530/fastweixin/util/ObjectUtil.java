@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 import java.util.*;
 
 /**
- * @author Alan
+ * @author alan
  * @date 2018/4/25
  */
 public class ObjectUtil {

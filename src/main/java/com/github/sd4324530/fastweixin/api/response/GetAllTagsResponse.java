@@ -5,7 +5,7 @@ import com.github.sd4324530.fastweixin.api.entity.Tag;
 import java.util.List;
 
 /**
- * @author Alan
+ * @author alan
  * @since 1.3.9
  */
 public class GetAllTagsResponse extends BaseResponse {

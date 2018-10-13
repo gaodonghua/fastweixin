@@ -1,7 +1,7 @@
 package com.github.sd4324530.fastweixin.api.response;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class UploadImgResponse extends BaseResponse {
 	private String url;

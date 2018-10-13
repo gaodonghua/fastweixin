@@ -2,7 +2,7 @@ package com.github.sd4324530.fastweixin.pay.request;
 
 /***
  *
- * @author Alan
+ * @author alan
  * @date 2018/4/27
  * 支付请求结果
  */

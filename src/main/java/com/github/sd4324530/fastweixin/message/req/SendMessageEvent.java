@@ -2,7 +2,7 @@ package com.github.sd4324530.fastweixin.message.req;
 
 /**
  *
- * @author Alan
+ * @author alan
  * @date 15/8/10
  */
 public class SendMessageEvent extends BaseEvent {

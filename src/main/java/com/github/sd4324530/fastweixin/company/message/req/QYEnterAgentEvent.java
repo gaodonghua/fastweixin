@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.company.message.req;
 /**
  * 微信企业号进入应用事件消息
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

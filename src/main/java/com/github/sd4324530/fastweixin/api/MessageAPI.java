@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * 消息相关API
  *
- * @author Alan
+ * @author alan
  * @since 1.3
  */
 public class MessageAPI extends BaseAPI {

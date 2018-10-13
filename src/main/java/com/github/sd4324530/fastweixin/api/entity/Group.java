@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.entity;
 /**
  * 分组信息
  *
- * @author Alan
+ * @author alan
  */
 public class Group extends BaseModel {
 

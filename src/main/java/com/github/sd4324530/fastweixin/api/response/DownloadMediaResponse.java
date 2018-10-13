@@ -12,7 +12,7 @@ import java.io.OutputStream;
 /**
  * 下载多媒体资源响应对象
  *
- * @author Alan
+ * @author alan
  */
 public class DownloadMediaResponse extends BaseResponse {
 

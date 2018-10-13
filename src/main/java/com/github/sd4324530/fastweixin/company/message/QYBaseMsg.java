@@ -8,7 +8,7 @@ import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 import java.io.Serializable;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class QYBaseMsg extends BaseModel implements Serializable {

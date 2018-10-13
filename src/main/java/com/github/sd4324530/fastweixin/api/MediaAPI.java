@@ -31,7 +31,7 @@ import java.util.Map;
 /**
  * 多媒体资源API
  *
- * @author Alan
+ * @author alan
  */
 public class MediaAPI extends BaseAPI {
 

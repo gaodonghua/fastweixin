@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.exception;
 /**
  * 微信API处理异常
  *
- * @author Alan
+ * @author alan
  */
 public class WeixinException extends RuntimeException {
 

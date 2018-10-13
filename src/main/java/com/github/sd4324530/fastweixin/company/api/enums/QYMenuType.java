@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.company.api.enums;
 /**
  * 微信企业号菜单类型枚举
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

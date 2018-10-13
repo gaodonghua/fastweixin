@@ -2,7 +2,7 @@ package com.github.sd4324530.fastweixin.message.req;
 
 /**
  *
- * @author Alan
+ * @author alan
  * @date 2015/6/24
  */
 public class TemplateMsgEvent extends BaseEvent {

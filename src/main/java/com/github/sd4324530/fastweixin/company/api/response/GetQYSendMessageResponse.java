@@ -6,7 +6,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 import com.github.sd4324530.fastweixin.api.response.BaseResponse;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class GetQYSendMessageResponse extends BaseResponse {

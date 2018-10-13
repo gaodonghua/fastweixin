@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Response -- 获取标签列表
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

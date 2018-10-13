@@ -5,7 +5,7 @@ import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 /**
  * 企业通讯录-标签
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

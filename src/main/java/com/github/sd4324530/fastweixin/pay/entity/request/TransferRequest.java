@@ -2,7 +2,7 @@ package com.github.sd4324530.fastweixin.pay.entity.request;
 
 /***
  *
- * @author cl
+ * @author alan
  * @date 2018/4/25
  * 付款接口请求实体
  */

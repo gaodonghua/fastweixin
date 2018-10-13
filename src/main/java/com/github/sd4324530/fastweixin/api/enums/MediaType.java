@@ -1,7 +1,7 @@
 package com.github.sd4324530.fastweixin.api.enums;
 
 /**
- * @author Alan
+ * @author alan
  */
 public enum MediaType {
 

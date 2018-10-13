@@ -4,7 +4,7 @@ package com.github.sd4324530.fastweixin.message;
 import com.github.sd4324530.fastweixin.message.util.MessageBuilder;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class ImageMsg extends BaseMsg {
 

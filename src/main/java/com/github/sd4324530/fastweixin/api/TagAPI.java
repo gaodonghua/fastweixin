@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * 标签相关API
  *
- * @author Alan
+ * @author alan
  * @since 1.3.9
  */
 public class TagAPI extends BaseAPI {

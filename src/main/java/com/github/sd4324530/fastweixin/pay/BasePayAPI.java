@@ -18,7 +18,7 @@ import java.util.Map;
 
 /**
  *
- * @author Alan
+ * @author alan
  * @date 2018/4/25
  * 支付API基础父类
  */

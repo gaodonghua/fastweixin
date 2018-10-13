@@ -19,7 +19,7 @@ import java.util.Map;
 /**
  * 标签管理
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

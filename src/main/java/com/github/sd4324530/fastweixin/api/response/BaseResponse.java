@@ -8,7 +8,7 @@ import com.github.sd4324530.fastweixin.util.StrUtil;
 /**
  * 微信API响应报文对象基类
  *
- * @author Alan
+ * @author alan
  */
 public class BaseResponse extends BaseModel {
 

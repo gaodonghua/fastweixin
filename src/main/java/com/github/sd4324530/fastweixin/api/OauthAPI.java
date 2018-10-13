@@ -17,7 +17,7 @@ import java.net.URLEncoder;
 /**
  * 网页授权API
  *
- * @author Alan
+ * @author alan
  */
 public class OauthAPI extends BaseAPI {
 

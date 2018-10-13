@@ -13,7 +13,7 @@ import static com.github.sd4324530.fastweixin.util.StrUtil.hasBlank;
 /**
  * 绑定服务器工具类
  *
- * @author Alan
+ * @author alan
  */
 public final class SignUtil {
 

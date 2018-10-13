@@ -5,7 +5,7 @@ import com.alibaba.fastjson.annotation.JSONField;
 /**
  * 获取群发消息结果
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class GetSendMessageResponse extends BaseResponse {

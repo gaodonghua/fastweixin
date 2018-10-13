@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.response;
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- * @author Alan
+ * @author alan
  */
 public class GetTokenResponse extends BaseResponse {
 

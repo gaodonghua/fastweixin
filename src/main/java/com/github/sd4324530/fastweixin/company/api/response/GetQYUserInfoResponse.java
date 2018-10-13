@@ -7,7 +7,7 @@ import com.github.sd4324530.fastweixin.company.api.entity.QYUser;
 import java.util.Map;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class GetQYUserInfoResponse extends BaseResponse {

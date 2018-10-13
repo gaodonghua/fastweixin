@@ -7,7 +7,7 @@ import com.github.sd4324530.fastweixin.company.api.entity.QYDepartment;
 import java.util.List;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class GetDepartmentListResponse extends BaseResponse {

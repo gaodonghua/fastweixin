@@ -13,7 +13,7 @@ import java.io.PrintWriter;
 /**
  * 微信企业平台交互操作基类，提供几乎所有微信企业平台交互方式
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */

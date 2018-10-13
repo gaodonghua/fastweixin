@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.api.entity;
 /**
  * 标签对象
  *
- * @author Alan
+ * @author alan
  * @since 1.3.9
  */
 public class Tag extends BaseModel {

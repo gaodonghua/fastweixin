@@ -18,7 +18,7 @@ import java.io.StringWriter;
 import java.util.*;
 
 /**
- * @author Alan
+ * @author alan
  * @date 2018/4/25
  * XML工具类
  */

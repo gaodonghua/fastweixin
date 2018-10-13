@@ -3,7 +3,7 @@ package com.github.sd4324530.fastweixin.company.api.response;
 import com.github.sd4324530.fastweixin.api.response.BaseResponse;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class CreateDepartmentResponse extends BaseResponse {

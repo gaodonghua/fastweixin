@@ -24,7 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class QYMediaAPI extends QYBaseAPI {

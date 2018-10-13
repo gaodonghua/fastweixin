@@ -11,7 +11,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  */
 public class DownloadMediaResponse extends BaseResponse {

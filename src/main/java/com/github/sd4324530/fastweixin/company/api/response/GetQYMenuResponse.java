@@ -6,7 +6,7 @@ import com.github.sd4324530.fastweixin.company.api.entity.QYMenu;
 /**
  * Response -- 获取菜单
  *
- * @author Alan
+ * @author alan
  * @version 1.0.beta
  * @since 1.3.6
  */
