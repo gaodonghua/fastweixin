@@ -7,32 +7,32 @@ import com.alibaba.fastjson.annotation.JSONField;
  */
 public class QrcodeResponse extends BaseResponse {
 
-    private String  ticket;
-    @JSONField(name = "expire_seconds")
-    private Integer expireSeconds;
-    private String  url;
+	private String ticket;
+	@JSONField(name = "expire_seconds")
+	private Integer expireSeconds;
+	private String url;
 
-    public String getTicket() {
-        return ticket;
-    }
+	public String getTicket() {
+		return ticket;
+	}
 
-    public void setTicket(String ticket) {
-        this.ticket = ticket;
-    }
+	public void setTicket(String ticket) {
+		this.ticket = ticket;
+	}
 
-    public Integer getExpireSeconds() {
-        return expireSeconds;
-    }
+	public Integer getExpireSeconds() {
+		return expireSeconds;
+	}
 
-    public void setExpireSeconds(Integer expireSeconds) {
-        this.expireSeconds = expireSeconds;
-    }
+	public void setExpireSeconds(Integer expireSeconds) {
+		this.expireSeconds = expireSeconds;
+	}
 
-    public String getUrl() {
-        return url;
-    }
+	public String getUrl() {
+		return url;
+	}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+	public void setUrl(String url) {
+		this.url = url;
+	}
 }

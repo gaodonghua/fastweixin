@@ -10,13 +10,13 @@ import java.util.List;
  */
 public class GetAllTagsResponse extends BaseResponse {
 
-    private List<Tag> tags;
+	private List<Tag> tags;
 
-    public List<Tag> getTags() {
-        return tags;
-    }
+	public List<Tag> getTags() {
+		return tags;
+	}
 
-    public void setTags(List<Tag> tags) {
-        this.tags = tags;
-    }
+	public void setTags(List<Tag> tags) {
+		this.tags = tags;
+	}
 }

@@ -8,8 +8,8 @@ import com.github.sd4324530.fastweixin.api.config.ApiConfig;
  */
 public interface QYAPIConfig extends ApiConfig {
 
-    String getCorpid();
+	String getCorpid();
 
-    String getCorpsecret();
+	String getCorpsecret();
 
 }

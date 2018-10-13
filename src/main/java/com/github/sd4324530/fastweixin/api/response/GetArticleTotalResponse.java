@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class GetArticleTotalResponse extends BaseResponse {
 
-    private List<ArticleTotal> list;
+	private List<ArticleTotal> list;
 
-    public List<ArticleTotal> getList() {
-        return list;
-    }
+	public List<ArticleTotal> getList() {
+		return list;
+	}
 
-    public void setList(List<ArticleTotal> list) {
-        this.list = list;
-    }
+	public void setList(List<ArticleTotal> list) {
+		this.list = list;
+	}
 }

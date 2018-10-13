@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class GetUpstreamMsgDistWeekResponse extends BaseResponse {
 
-    private List<UpstreamMsgDistWeek> list;
+	private List<UpstreamMsgDistWeek> list;
 
-    public List<UpstreamMsgDistWeek> getList() {
-        return list;
-    }
+	public List<UpstreamMsgDistWeek> getList() {
+		return list;
+	}
 
-    public void setList(List<UpstreamMsgDistWeek> list) {
-        this.list = list;
-    }
+	public void setList(List<UpstreamMsgDistWeek> list) {
+		this.list = list;
+	}
 }

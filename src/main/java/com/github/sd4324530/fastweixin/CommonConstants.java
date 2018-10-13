@@ -29,27 +29,49 @@ public class CommonConstants {
 	 * 校验用户姓名选项：不校验真实姓名
 	 */
 	public final static String NO_CHECK = "NO_CHECK";
-	/** 发放红包使用场景：商品促销 */
+	/**
+	 * 发放红包使用场景：商品促销
+	 */
 	public final static String RP_PRODUCT_1 = "PRODUCT_1";
-	/** 发放红包使用场景：抽奖 */
+	/**
+	 * 发放红包使用场景：抽奖
+	 */
 	public final static String RP_PRODUCT_2 = "PRODUCT_2";
-	/** 发放红包使用场景：虚拟物品兑奖 */
+	/**
+	 * 发放红包使用场景：虚拟物品兑奖
+	 */
 	public final static String RP_PRODUCT_3 = "PRODUCT_3";
-	/** 发放红包使用场景：企业内部福利 */
+	/**
+	 * 发放红包使用场景：企业内部福利
+	 */
 	public final static String RP_PRODUCT_4 = "PRODUCT_4";
-	/** 发放红包使用场景：渠道分润 */
+	/**
+	 * 发放红包使用场景：渠道分润
+	 */
 	public final static String RP_PRODUCT_5 = "PRODUCT_5";
-	/** 发放红包使用场景：保险回馈 */
+	/**
+	 * 发放红包使用场景：保险回馈
+	 */
 	public final static String RP_PRODUCT_6 = "PRODUCT_6";
-	/** 发放红包使用场景：彩票派奖 */
+	/**
+	 * 发放红包使用场景：彩票派奖
+	 */
 	public final static String RP_PRODUCT_7 = "PRODUCT_7";
-	/** 发放红包使用场景：税务刮奖 */
+	/**
+	 * 发放红包使用场景：税务刮奖
+	 */
 	public final static String RP_PRODUCT_8 = "PRODUCT_8";
-	/** 红包金额设置方式：全部随机 */
+	/**
+	 * 红包金额设置方式：全部随机
+	 */
 	public final static String ALL_RAND = "ALL_RAND";
-	/** 状态码：成功 */
+	/**
+	 * 状态码：成功
+	 */
 	public final static String SUCCESS = "SUCCESS";
-	/** 状态码：失败 */
+	/**
+	 * 状态码：失败
+	 */
 	public final static String FAIL = "FAIL";
 	private final static Logger LOGGER = LoggerFactory.getLogger(CommonConstants.class);
 

@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class GetUserReadHourResponse extends BaseResponse {
 
-    private List<UserReadHour> list;
+	private List<UserReadHour> list;
 
-    public List<UserReadHour> getList() {
-        return list;
-    }
+	public List<UserReadHour> getList() {
+		return list;
+	}
 
-    public void setList(List<UserReadHour> list) {
-        this.list = list;
-    }
+	public void setList(List<UserReadHour> list) {
+		this.list = list;
+	}
 }

@@ -4,48 +4,49 @@ import com.alibaba.fastjson.annotation.JSONField;
 
 /**
  * Oauth授权获取token接口响应对象
+ *
  * @author peiyu
  */
 public class OauthGetTokenResponse extends GetTokenResponse {
 
-    @JSONField(name = "refresh_token")
-    private String refreshToken;
+	@JSONField(name = "refresh_token")
+	private String refreshToken;
 
-    private String openid;
+	private String openid;
 
-    private String scope;
+	private String scope;
 
-    private String unionid;
+	private String unionid;
 
-    public String getRefreshToken() {
-        return refreshToken;
-    }
+	public String getRefreshToken() {
+		return refreshToken;
+	}
 
-    public void setRefreshToken(String refreshToken) {
-        this.refreshToken = refreshToken;
-    }
+	public void setRefreshToken(String refreshToken) {
+		this.refreshToken = refreshToken;
+	}
 
-    public String getOpenid() {
-        return openid;
-    }
+	public String getOpenid() {
+		return openid;
+	}
 
-    public void setOpenid(String openid) {
-        this.openid = openid;
-    }
+	public void setOpenid(String openid) {
+		this.openid = openid;
+	}
 
-    public String getScope() {
-        return scope;
-    }
+	public String getScope() {
+		return scope;
+	}
 
-    public void setScope(String scope) {
-        this.scope = scope;
-    }
+	public void setScope(String scope) {
+		this.scope = scope;
+	}
 
-    public String getUnionid() {
-        return unionid;
-    }
+	public String getUnionid() {
+		return unionid;
+	}
 
-    public void setUnionid(String unionid) {
-        this.unionid = unionid;
-    }
+	public void setUnionid(String unionid) {
+		this.unionid = unionid;
+	}
 }

@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class GetInterfaceSummaryResponse extends BaseResponse {
 
-    private List<InterfaceSummary> list;
+	private List<InterfaceSummary> list;
 
-    public List<InterfaceSummary> getList() {
-        return list;
-    }
+	public List<InterfaceSummary> getList() {
+		return list;
+	}
 
-    public void setList(List<InterfaceSummary> list) {
-        this.list = list;
-    }
+	public void setList(List<InterfaceSummary> list) {
+		this.list = list;
+	}
 }

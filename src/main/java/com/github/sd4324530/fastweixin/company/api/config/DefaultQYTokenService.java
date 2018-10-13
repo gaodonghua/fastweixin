@@ -11,14 +11,14 @@ import com.github.sd4324530.fastweixin.api.config.TokenService;
  */
 public class DefaultQYTokenService extends DefaultTokenService implements TokenService {
 
-    @Override
-    protected String generateAccessTokenUrl(ApiConfig apiConfig) {
-        return "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" + apiConfig.getAppid() + "&corpsecret=" + apiConfig.getSecret();
-    }
+	@Override
+	protected String generateAccessTokenUrl(ApiConfig apiConfig) {
+		return "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" + apiConfig.getAppid() + "&corpsecret=" + apiConfig.getSecret();
+	}
 
-    @Override
-    protected String generateJsApiTicketUrl(ApiConfig apiConfig) {
-        return "https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token=" + apiConfig.getAccessToken();
-    }
+	@Override
+	protected String generateJsApiTicketUrl(ApiConfig apiConfig) {
+		return "https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token=" + apiConfig.getAccessToken();
+	}
 
 }

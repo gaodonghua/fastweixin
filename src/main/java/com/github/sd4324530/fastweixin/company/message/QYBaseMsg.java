@@ -18,69 +18,69 @@ import java.io.Serializable;
  */
 public class QYBaseMsg extends BaseModel implements Serializable {
 
-    public static final class Safe {
-        public static final String YES = "1";// 保密消息
-        public static final String NO  = "0";// 非保密消息
-    }
+	@JSONField(name = "touser")
+	private String toUser;
+	@JSONField(name = "toparty")
+	private String toParty;
+	@JSONField(name = "totag")
+	private String toTag;
+	@JSONField(name = "msgtype")
+	private String msgType;
+	@JSONField(name = "agentid")
+	private String agentId;
+	@JSONField(name = "safe")
+	private String safe = Safe.NO;
 
-    @JSONField(name = "touser")
-    private String toUser;
-    @JSONField(name = "toparty")
-    private String toParty;
-    @JSONField(name = "totag")
-    private String toTag;
-    @JSONField(name = "msgtype")
-    private String msgType;
-    @JSONField(name = "agentid")
-    private String agentId;
-    @JSONField(name = "safe")
-    private String safe = Safe.NO;
+	public String getToUser() {
+		return toUser;
+	}
 
-    public String getToUser() {
-        return toUser;
-    }
+	public void setToUser(String toUser) {
+		this.toUser = toUser;
+	}
 
-    public void setToUser(String toUser) {
-        this.toUser = toUser;
-    }
+	public String getToParty() {
+		return toParty;
+	}
 
-    public String getToParty() {
-        return toParty;
-    }
+	public void setToParty(String toParty) {
+		this.toParty = toParty;
+	}
 
-    public void setToParty(String toParty) {
-        this.toParty = toParty;
-    }
+	public String getToTag() {
+		return toTag;
+	}
 
-    public String getToTag() {
-        return toTag;
-    }
+	public void setToTag(String toTag) {
+		this.toTag = toTag;
+	}
 
-    public void setToTag(String toTag) {
-        this.toTag = toTag;
-    }
+	public String getMsgType() {
+		return msgType;
+	}
 
-    public String getMsgType() {
-        return msgType;
-    }
+	public void setMsgType(String msgType) {
+		this.msgType = msgType;
+	}
 
-    public void setMsgType(String msgType) {
-        this.msgType = msgType;
-    }
+	public String getAgentId() {
+		return agentId;
+	}
 
-    public String getAgentId() {
-        return agentId;
-    }
+	public void setAgentId(String agentId) {
+		this.agentId = agentId;
+	}
 
-    public void setAgentId(String agentId) {
-        this.agentId = agentId;
-    }
+	public String getSafe() {
+		return safe;
+	}
 
-    public String getSafe() {
-        return safe;
-    }
+	public void setSafe(String safe) {
+		this.safe = safe;
+	}
 
-    public void setSafe(String safe) {
-        this.safe = safe;
-    }
+	public static final class Safe {
+		public static final String YES = "1";// 保密消息
+		public static final String NO = "0";// 非保密消息
+	}
 }

@@ -9,14 +9,14 @@ import com.alibaba.fastjson.annotation.JSONField;
  */
 public class UserCumulate extends BaseDataCube {
 
-    @JSONField(name = "cumulate_user")
-    private Integer cumulateUser;
+	@JSONField(name = "cumulate_user")
+	private Integer cumulateUser;
 
-    public Integer getCumulateUser() {
-        return cumulateUser;
-    }
+	public Integer getCumulateUser() {
+		return cumulateUser;
+	}
 
-    public void setCumulateUser(Integer cumulateUser) {
-        this.cumulateUser = cumulateUser;
-    }
+	public void setCumulateUser(Integer cumulateUser) {
+		this.cumulateUser = cumulateUser;
+	}
 }

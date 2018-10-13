@@ -11,16 +11,16 @@ import com.github.sd4324530.fastweixin.api.response.BaseResponse;
  *
  * @author Nottyjay
  * @version 1.0.beta
- *          ====================================================================
+ * ====================================================================
  */
 public class GetQYUserInviteResponse extends BaseResponse {
-    private Integer type;
+	private Integer type;
 
-    public Integer getType() {
-        return type;
-    }
+	public Integer getType() {
+		return type;
+	}
 
-    public void setType(Integer type) {
-        this.type = type;
-    }
+	public void setType(Integer type) {
+		this.type = type;
+	}
 }

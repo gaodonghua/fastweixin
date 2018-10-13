@@ -6,159 +6,158 @@ import com.github.sd4324530.fastweixin.api.entity.BaseModel;
 import java.util.Map;
 
 /**
- *  
- *  ====================================================================
- *  上海聚攒软件开发有限公司
- *  --------------------------------------------------------------------
- *  @author Nottyjay
- *  @version 1.0.beta
- *  ====================================================================
+ * ====================================================================
+ * 上海聚攒软件开发有限公司
+ * --------------------------------------------------------------------
+ *
+ * @author Nottyjay
+ * @version 1.0.beta
+ * ====================================================================
  */
 public class QYUser extends BaseModel {
 
-    public final class Gender{
-        public static final String MAN = "1";
-        public static final String WOMAN = "2";
-    }
+	@JSONField(name = "userid")
+	private String userId;// 用户ID。必须唯一。可用随机数或UUID代替此值
+	private String name;// 用户姓名
+	private Integer[] department;// 部门
+	private String position;// 职务
+	private String mobile;// 手机
+	private String gender;// 性别
+	private String email;// 邮箱
+	private String weixinid;// 微信号。不是微信名称
+	@JSONField(name = "avatar_mediaid")
+	private String avatarMdiaid;//创建用户时头像的mediaid
+	private String avatar;//更新用户时，用户头像链接地址
+	private Integer status;// 关注状态: 1=已关注，2=已冻结，4=未关注
+	private Map<String, Object> extattr;
+	public QYUser() {
+	}
 
-    @JSONField(name = "userid")
-    private String userId;// 用户ID。必须唯一。可用随机数或UUID代替此值
-    private String name;// 用户姓名
-    private Integer[] department;// 部门
-    private String position;// 职务
-    private String mobile;// 手机
-    private String gender;// 性别
-    private String email;// 邮箱
-    private String weixinid;// 微信号。不是微信名称
-    @JSONField(name = "avatar_mediaid")
-    private String avatarMdiaid;//创建用户时头像的mediaid
-    private String avatar;//更新用户时，用户头像链接地址
-    private Integer status;// 关注状态: 1=已关注，2=已冻结，4=未关注
-    private Map<String, Object> extattr;
+	public QYUser(String userId, String name, Integer[] department, String position, String mobile, String gender, String email, String weixinid, Map<String, Object> extattr) {
+		this.userId = userId;
+		this.name = name;
+		this.department = department;
+		this.position = position;
+		this.mobile = mobile;
+		this.gender = gender;
+		this.email = email;
+		this.weixinid = weixinid;
+		this.extattr = extattr;
+	}
 
-    public QYUser() {
-    }
+	public QYUser(String userId, String name, Integer[] department, String position, String mobile, String gender, String email, String weixinid, String avatar, Integer status, Map<String, Object> extattr) {
+		this.userId = userId;
+		this.name = name;
+		this.position = position;
+		this.mobile = mobile;
+		this.gender = gender;
+		this.email = email;
+		this.weixinid = weixinid;
+		this.avatar = avatar;
+		this.status = status;
+		this.extattr = extattr;
+	}
 
-    public QYUser(String userId, String name, Integer[] department, String position, String mobile, String gender, String email, String weixinid, Map<String, Object> extattr) {
-        this.userId = userId;
-        this.name = name;
-        this.department = department;
-        this.position = position;
-        this.mobile = mobile;
-        this.gender = gender;
-        this.email = email;
-        this.weixinid = weixinid;
-        this.extattr = extattr;
-    }
+	public String getUserId() {
+		return userId;
+	}
 
-    public QYUser(String userId, String name, Integer[] department, String position, String mobile, String gender, String email, String weixinid, String avatar, Integer status, Map<String, Object> extattr) {
-        this.userId = userId;
-        this.name = name;
-        this.position = position;
-        this.mobile = mobile;
-        this.gender = gender;
-        this.email = email;
-        this.weixinid = weixinid;
-        this.avatar = avatar;
-        this.status = status;
-        this.extattr = extattr;
-    }
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
 
-    public String getUserId() {
-        return userId;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public Integer[] getDepartment() {
+		return department;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setDepartment(Integer[] department) {
+		if (department.length != 0) {
+			this.department = department;
+		}
+	}
 
-    public Integer[] getDepartment() {
-        return department;
-    }
+	public String getPosition() {
+		return position;
+	}
 
-    public void setDepartment(Integer[] department) {
-        if(department.length != 0) {
-            this.department = department;
-        }
-    }
+	public void setPosition(String position) {
+		this.position = position;
+	}
 
-    public String getPosition() {
-        return position;
-    }
+	public String getMobile() {
+		return mobile;
+	}
 
-    public void setPosition(String position) {
-        this.position = position;
-    }
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
 
-    public String getMobile() {
-        return mobile;
-    }
+	public String getGender() {
+		return gender;
+	}
 
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
-    }
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 
-    public String getGender() {
-        return gender;
-    }
+	public String getEmail() {
+		return email;
+	}
 
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-    public String getEmail() {
-        return email;
-    }
+	public String getWeixinid() {
+		return weixinid;
+	}
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+	public void setWeixinid(String weixinid) {
+		this.weixinid = weixinid;
+	}
 
-    public String getWeixinid() {
-        return weixinid;
-    }
+	public String getAvatar() {
+		return avatar;
+	}
 
-    public void setWeixinid(String weixinid) {
-        this.weixinid = weixinid;
-    }
+	public void setAvatar(String avatar) {
+		this.avatar = avatar;
+	}
 
-    public String getAvatar() {
-        return avatar;
-    }
+	public Integer getStatus() {
+		return status;
+	}
 
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
-    }
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
 
-    public Integer getStatus() {
-        return status;
-    }
+	public Map<String, Object> getExtattr() {
+		return extattr;
+	}
 
-    public void setStatus(Integer status) {
-        this.status = status;
-    }
+	public void setExtattr(Map<String, Object> extattr) {
+		this.extattr = extattr;
+	}
 
-    public Map<String, Object> getExtattr() {
-        return extattr;
-    }
+	public String getAvatarMdiaid() {
+		return avatarMdiaid;
+	}
 
-    public void setExtattr(Map<String, Object> extattr) {
-        this.extattr = extattr;
-    }
+	public void setAvatarMdiaid(String avatarMdiaid) {
+		this.avatarMdiaid = avatarMdiaid;
+	}
 
-    public String getAvatarMdiaid() {
-        return avatarMdiaid;
-    }
-
-    public void setAvatarMdiaid(String avatarMdiaid) {
-        this.avatarMdiaid = avatarMdiaid;
-    }
+	public final class Gender {
+		public static final String MAN = "1";
+		public static final String WOMAN = "2";
+	}
 }

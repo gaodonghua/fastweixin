@@ -8,18 +8,18 @@ import com.github.sd4324530.fastweixin.handle.ApiConfigChangeHandle;
  */
 public interface ApiConfig {
 
-    String getAppid();
+	String getAppid();
 
-    String getSecret();
+	String getSecret();
 
-    String getAccessToken();
+	String getAccessToken();
 
-    String getJsApiTicket();
+	String getJsApiTicket();
 
-    void addHandle(ApiConfigChangeHandle handle);
+	void addHandle(ApiConfigChangeHandle handle);
 
-    void removeHandle(ApiConfigChangeHandle handle);
+	void removeHandle(ApiConfigChangeHandle handle);
 
-    void removeAllHandle();
+	void removeAllHandle();
 
 }

@@ -7,17 +7,17 @@ import com.alibaba.fastjson.annotation.JSONField;
  */
 public class SendTemplateResponse extends BaseResponse {
 
-    /**
-     * 消息id
-     */
-    @JSONField(name = "msgid")
-    private String msgid;
+	/**
+	 * 消息id
+	 */
+	@JSONField(name = "msgid")
+	private String msgid;
 
-    public String getMsgid() {
-        return msgid;
-    }
+	public String getMsgid() {
+		return msgid;
+	}
 
-    public void setMsgid(String msgid) {
-        this.msgid = msgid;
-    }
+	public void setMsgid(String msgid) {
+		this.msgid = msgid;
+	}
 }

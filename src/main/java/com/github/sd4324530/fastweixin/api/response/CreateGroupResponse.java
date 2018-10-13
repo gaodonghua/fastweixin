@@ -25,7 +25,7 @@ public class CreateGroupResponse extends BaseResponse {
 //    public void setName(String name) {
 //        this.name = name;
 //    }
-	
+
 	private Group group;
 
 	public Group getGroup() {
@@ -35,6 +35,6 @@ public class CreateGroupResponse extends BaseResponse {
 	public void setGroup(Group group) {
 		this.group = group;
 	}
-	
-	
+
+
 }

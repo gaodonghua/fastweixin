@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class GetUserShareResponse extends BaseResponse {
 
-    private List<UserShare> list;
+	private List<UserShare> list;
 
-    public List<UserShare> getList() {
-        return list;
-    }
+	public List<UserShare> getList() {
+		return list;
+	}
 
-    public void setList(List<UserShare> list) {
-        this.list = list;
-    }
+	public void setList(List<UserShare> list) {
+		this.list = list;
+	}
 }

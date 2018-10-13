@@ -6,8 +6,8 @@ package com.github.sd4324530.fastweixin.api.config;
  */
 public interface TokenService {
 
-    void getAccessToken(ApiConfig apiConfig, TokenResponseCallback callback);
+	void getAccessToken(ApiConfig apiConfig, TokenResponseCallback callback);
 
-    void getJsApiTicket(ApiConfig apiConfig, TokenResponseCallback callback);
+	void getJsApiTicket(ApiConfig apiConfig, TokenResponseCallback callback);
 
 }

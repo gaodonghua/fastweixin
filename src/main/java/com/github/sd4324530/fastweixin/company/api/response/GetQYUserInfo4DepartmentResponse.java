@@ -15,18 +15,18 @@ import java.util.List;
  *
  * @author Nottyjay
  * @version 1.0.beta
- *          ====================================================================
+ * ====================================================================
  */
 public class GetQYUserInfo4DepartmentResponse extends BaseResponse {
 
-    @JSONField(name = "userlist")
-    public List<QYUser> userList;
+	@JSONField(name = "userlist")
+	public List<QYUser> userList;
 
-    public List<QYUser> getUserList() {
-        return userList;
-    }
+	public List<QYUser> getUserList() {
+		return userList;
+	}
 
-    public void setUserList(List<QYUser> userList) {
-        this.userList = userList;
-    }
+	public void setUserList(List<QYUser> userList) {
+		this.userList = userList;
+	}
 }

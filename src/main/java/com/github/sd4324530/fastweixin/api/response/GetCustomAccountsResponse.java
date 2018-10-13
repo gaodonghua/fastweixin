@@ -10,14 +10,14 @@ import java.util.List;
  */
 public class GetCustomAccountsResponse extends BaseResponse {
 
-    @JSONField(name = "kf_list")
-    private List<CustomAccount> customAccountList;
+	@JSONField(name = "kf_list")
+	private List<CustomAccount> customAccountList;
 
-    public List<CustomAccount> getCustomAccountList() {
-        return customAccountList;
-    }
+	public List<CustomAccount> getCustomAccountList() {
+		return customAccountList;
+	}
 
-    public void setCustomAccountList(List<CustomAccount> customAccountList) {
-        this.customAccountList = customAccountList;
-    }
+	public void setCustomAccountList(List<CustomAccount> customAccountList) {
+		this.customAccountList = customAccountList;
+	}
 }

@@ -13,37 +13,37 @@ import com.github.sd4324530.fastweixin.pay.request.PayRequestService;
  */
 public class TransferAPI extends BasePayAPI {
 
-    public TransferAPI(PayConfig payConfig, PayRequestService payRequestService) {
-        super(payConfig, payRequestService);
-    }
+	public TransferAPI(PayConfig payConfig, PayRequestService payRequestService) {
+		super(payConfig, payRequestService);
+	}
 
-    /**
-     * 付款
-     */
-    public TransferResponse transfer(TransferRequest request) {
-        request.setMch_appid(payConfig.getAppID());
-        request.setMchid(payConfig.getMchID());
+	/**
+	 * 付款
+	 */
+	public TransferResponse transfer(TransferRequest request) {
+		request.setMch_appid(payConfig.getAppID());
+		request.setMchid(payConfig.getMchID());
 
-        return this.doRequest(
-                "https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers",
-                request,
-                true,
-                TransferResponse.class);
-    }
+		return this.doRequest(
+				"https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers",
+				request,
+				true,
+				TransferResponse.class);
+	}
 
-    /**
-     * 查询付款记录
-     */
-    public TransferInfoResponse getTransferInfo(TransferInfoRequest request) {
-        request.setAppid(payConfig.getAppID());
-        request.setMch_id(payConfig.getMchID());
+	/**
+	 * 查询付款记录
+	 */
+	public TransferInfoResponse getTransferInfo(TransferInfoRequest request) {
+		request.setAppid(payConfig.getAppID());
+		request.setMch_id(payConfig.getMchID());
 
-        return this.doRequest(
-                "https://api.mch.weixin.qq.com/mmpaymkttransfers/gettransferinfo",
-                request,
-                true,
-                TransferInfoResponse.class
-        );
-    }
+		return this.doRequest(
+				"https://api.mch.weixin.qq.com/mmpaymkttransfers/gettransferinfo",
+				request,
+				true,
+				TransferInfoResponse.class
+		);
+	}
 
 }

@@ -7,19 +7,19 @@ package com.github.sd4324530.fastweixin.exception;
  */
 public class WeixinException extends RuntimeException {
 
-    public WeixinException() {
-        super();
-    }
+	public WeixinException() {
+		super();
+	}
 
-    public WeixinException(String message) {
-        super(message);
-    }
+	public WeixinException(String message) {
+		super(message);
+	}
 
-    public WeixinException(String message, Throwable cause) {
-        super(message, cause);
-    }
+	public WeixinException(String message, Throwable cause) {
+		super(message, cause);
+	}
 
-    public WeixinException(Throwable cause) {
-        super(cause);
-    }
+	public WeixinException(Throwable cause) {
+		super(cause);
+	}
 }

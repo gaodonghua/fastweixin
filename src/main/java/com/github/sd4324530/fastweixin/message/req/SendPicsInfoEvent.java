@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.Map;
 
 public class SendPicsInfoEvent extends BaseEvent {
-	
+
 	private String eventKey;
 	private Integer count;
 	private List<Map> picList;
-	
+
 	public SendPicsInfoEvent(String eventKey, Integer count, List<Map> picList) {
 		super();
 		this.eventKey = eventKey;
@@ -40,12 +40,12 @@ public class SendPicsInfoEvent extends BaseEvent {
 		this.picList = picList;
 	}
 
-    @Override
-    public String toString() {
-        return "SendPicsInfoEvent{" +
-                "eventKey='" + eventKey + '\'' +
-                ", count=" + count +
-                ", picList=" + picList +
-                '}';
-    }
+	@Override
+	public String toString() {
+		return "SendPicsInfoEvent{" +
+				"eventKey='" + eventKey + '\'' +
+				", count=" + count +
+				", picList=" + picList +
+				'}';
+	}
 }

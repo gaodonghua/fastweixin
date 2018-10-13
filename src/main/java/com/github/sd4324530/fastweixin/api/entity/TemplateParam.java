@@ -5,16 +5,16 @@ package com.github.sd4324530.fastweixin.api.entity;
  */
 public class TemplateParam extends BaseModel {
 
-    /**
-     * 值
-     */
-    private String value;
-    /**
-     * 颜色
-     */
-    private String color;
+	/**
+	 * 值
+	 */
+	private String value;
+	/**
+	 * 颜色
+	 */
+	private String color;
 
-    public TemplateParam() {
+	public TemplateParam() {
 		super();
 	}
 
@@ -30,18 +30,18 @@ public class TemplateParam extends BaseModel {
 	}
 
 	public String getValue() {
-        return value;
-    }
+		return value;
+	}
 
-    public void setValue(String value) {
-        this.value = value;
-    }
+	public void setValue(String value) {
+		this.value = value;
+	}
 
-    public String getColor() {
-        return color;
-    }
+	public String getColor() {
+		return color;
+	}
 
-    public void setColor(String color) {
-        this.color = color;
-    }
+	public void setColor(String color) {
+		this.color = color;
+	}
 }

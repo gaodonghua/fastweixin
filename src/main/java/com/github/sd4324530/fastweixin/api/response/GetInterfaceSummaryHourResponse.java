@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class GetInterfaceSummaryHourResponse extends BaseResponse {
 
-    private List<InterfaceSummaryHour> list;
+	private List<InterfaceSummaryHour> list;
 
-    public List<InterfaceSummaryHour> getList() {
-        return list;
-    }
+	public List<InterfaceSummaryHour> getList() {
+		return list;
+	}
 
-    public void setList(List<InterfaceSummaryHour> list) {
-        this.list = list;
-    }
+	public void setList(List<InterfaceSummaryHour> list) {
+		this.list = list;
+	}
 }

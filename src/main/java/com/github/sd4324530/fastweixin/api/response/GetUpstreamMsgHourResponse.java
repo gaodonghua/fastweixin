@@ -9,13 +9,13 @@ import java.util.List;
  */
 public class GetUpstreamMsgHourResponse extends BaseResponse {
 
-    private List<UpstreamMsgHour> list;
+	private List<UpstreamMsgHour> list;
 
-    public List<UpstreamMsgHour> getList() {
-        return list;
-    }
+	public List<UpstreamMsgHour> getList() {
+		return list;
+	}
 
-    public void setList(List<UpstreamMsgHour> list) {
-        this.list = list;
-    }
+	public void setList(List<UpstreamMsgHour> list) {
+		this.list = list;
+	}
 }

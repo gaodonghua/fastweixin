@@ -9,14 +9,14 @@ import java.util.Date;
  */
 public class BaseDataCube extends BaseModel {
 
-    @JSONField(name = "ref_date", format = "yyyy-MM-dd")
-    private Date refDate;
+	@JSONField(name = "ref_date", format = "yyyy-MM-dd")
+	private Date refDate;
 
-    public Date getRefDate() {
-        return refDate;
-    }
+	public Date getRefDate() {
+		return refDate;
+	}
 
-    public void setRefDate(Date refDate) {
-        this.refDate = refDate;
-    }
+	public void setRefDate(Date refDate) {
+		this.refDate = refDate;
+	}
 }

@@ -6,12 +6,12 @@ public final class ScanCodeEvent extends BaseEvent {
 	private String scanType;
 	private String scanResult;
 
-    public ScanCodeEvent(String eventKey, String scanType, String scanResult) {
-        super();
-        this.eventKey = eventKey;
-        this.scanType = scanType;
-        this.scanResult = scanResult;
-    }
+	public ScanCodeEvent(String eventKey, String scanType, String scanResult) {
+		super();
+		this.eventKey = eventKey;
+		this.scanType = scanType;
+		this.scanResult = scanResult;
+	}
 
 	public String getEventKey() {
 		return eventKey;
@@ -38,9 +38,9 @@ public final class ScanCodeEvent extends BaseEvent {
 	}
 
 	@Override
-    public String toString() {
-        return "ScanCodeEvent [eventKey=" + eventKey + ", scanType=" + scanType + ", scanResult=" + scanResult + ", toUserName=" + toUserName
-                + ", fromUserName=" + fromUserName + ", createTime="
-                + createTime + ", msgType=" + msgType + "]";
-    }
+	public String toString() {
+		return "ScanCodeEvent [eventKey=" + eventKey + ", scanType=" + scanType + ", scanResult=" + scanResult + ", toUserName=" + toUserName
+				+ ", fromUserName=" + fromUserName + ", createTime="
+				+ createTime + ", msgType=" + msgType + "]";
+	}
 }

@@ -9,31 +9,31 @@ import java.util.List;
  */
 public class ArticleTotal extends BaseDataCube {
 
-    private String                   msgid;
-    private String                   title;
-    private List<ArticleTotalDetail> details;
+	private String msgid;
+	private String title;
+	private List<ArticleTotalDetail> details;
 
-    public String getMsgid() {
-        return msgid;
-    }
+	public String getMsgid() {
+		return msgid;
+	}
 
-    public void setMsgid(String msgid) {
-        this.msgid = msgid;
-    }
+	public void setMsgid(String msgid) {
+		this.msgid = msgid;
+	}
 
-    public String getTitle() {
-        return title;
-    }
+	public String getTitle() {
+		return title;
+	}
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
-    public List<ArticleTotalDetail> getDetails() {
-        return details;
-    }
+	public List<ArticleTotalDetail> getDetails() {
+		return details;
+	}
 
-    public void setDetails(List<ArticleTotalDetail> details) {
-        this.details = details;
-    }
+	public void setDetails(List<ArticleTotalDetail> details) {
+		this.details = details;
+	}
 }

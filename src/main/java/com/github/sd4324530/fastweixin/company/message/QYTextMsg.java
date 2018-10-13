@@ -4,8 +4,6 @@ package com.github.sd4324530.fastweixin.company.message;/**
 
 import com.alibaba.fastjson.annotation.JSONField;
 
-import java.util.Map;
-
 /**
  * ====================================================================
  * 上海聚攒软件开发有限公司
@@ -17,43 +15,43 @@ import java.util.Map;
  */
 public class QYTextMsg extends QYBaseMsg {
 
-    @JSONField(name = "text")
-    private Text text;
+	@JSONField(name = "text")
+	private Text text;
 
-    public QYTextMsg() {
-        this.setMsgType("text");
-    }
+	public QYTextMsg() {
+		this.setMsgType("text");
+	}
 
-    public QYTextMsg(String content) {
-        this.text = new Text(content);
-    }
+	public QYTextMsg(String content) {
+		this.text = new Text(content);
+	}
 
-    public Text getText() {
-        return text;
-    }
+	public Text getText() {
+		return text;
+	}
 
-    public void setText(Text text) {
-        this.text = text;
-    }
+	public void setText(Text text) {
+		this.text = text;
+	}
 
-    public void setConetnt(String content){
-        this.text = new Text(content);
-    }
+	public void setConetnt(String content) {
+		this.text = new Text(content);
+	}
 
-    public static class Text{
-        @JSONField(name = "content")
-        private String content;
+	public static class Text {
+		@JSONField(name = "content")
+		private String content;
 
-        public Text(String content) {
-            this.content = content;
-        }
+		public Text(String content) {
+			this.content = content;
+		}
 
-        public String getContent() {
-            return content;
-        }
+		public String getContent() {
+			return content;
+		}
 
-        public void setContent(String content) {
-            this.content = content;
-        }
-    }
+		public void setContent(String content) {
+			this.content = content;
+		}
+	}
 }

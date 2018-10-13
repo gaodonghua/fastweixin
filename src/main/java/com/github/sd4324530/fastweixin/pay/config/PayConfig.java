@@ -8,32 +8,32 @@ import java.io.InputStream;
  */
 public interface PayConfig {
 
-    /**
-     * 获取AppID
-     *
-     * @return
-     */
-    String getAppID();
+	/**
+	 * 获取AppID
+	 *
+	 * @return
+	 */
+	String getAppID();
 
-    /**
-     * 获取商户ID
-     *
-     * @return
-     */
-    String getMchID();
+	/**
+	 * 获取商户ID
+	 *
+	 * @return
+	 */
+	String getMchID();
 
-    /**
-     * 获取API秘钥
-     *
-     * @return
-     */
-    String getKey();
+	/**
+	 * 获取API秘钥
+	 *
+	 * @return
+	 */
+	String getKey();
 
-    /**
-     * 获取商户证书输入流
-     *
-     * @return
-     */
-    InputStream getCertAsStream();
+	/**
+	 * 获取商户证书输入流
+	 *
+	 * @return
+	 */
+	InputStream getCertAsStream();
 
 }

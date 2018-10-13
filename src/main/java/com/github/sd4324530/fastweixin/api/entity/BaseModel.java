@@ -8,8 +8,8 @@ import com.github.sd4324530.fastweixin.util.JSONUtil;
  * @author peiyu
  */
 public abstract class BaseModel implements Model {
-    @Override
-    public String toJsonString() {
-        return JSONUtil.toJson(this);
-    }
+	@Override
+	public String toJsonString() {
+		return JSONUtil.toJson(this);
+	}
 }
